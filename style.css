@@ -1,0 +1,212 @@
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.child_1 {
+    background-color: rgba(255, 255, 255, 0.933);
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+}
+
+.head {
+    margin: 7px 20px 7px 40px;
+    display: inline-block;
+}
+
+.Search img {
+    height: 45px;
+    cursor: pointer;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+}
+
+.more {
+    width: 3vw;
+    height: 3vw;
+    margin: 7px 0 0 40px;
+}
+
+.create {
+    width: 3vw;
+    height: 3vw;
+    margin: 7px 5px 0 0;
+}
+
+.user {
+    width: 3vw;
+    height: 3vw;
+    margin-right: 40px;
+
+}
+
+.boxsrc {
+    border: 1px solid rgb(236, 236, 236);
+    padding: 5px;
+    width: 45vw;
+    height: 45px;
+    outline: 1px solid rgb(212, 212, 212);
+
+}
+
+.hr {
+    color: rgb(236, 236, 236);
+    width: 94vw;
+    height: -1px;
+    margin-left: 3vw;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 50px 14px 50px;
+}
+
+.sf {
+    width: 140px;
+    height: 30px;
+    letter-spacing: 1px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 20px;
+}
+
+.smlbtn {
+    width: 60px;
+    height: 30px;
+    letter-spacing: 1px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 20px;
+}
+.kamp {
+    width: 60px;
+    height: 30px;
+    letter-spacing: 1px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 20px;
+}
+
+.doraem {
+    width: 100px;
+    height: 30px;
+    letter-spacing: 1px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 20px;
+}
+
+.all {
+    width: 60px;
+    height: 30px;
+    letter-spacing: 1px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+}
+
+.all:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(234, 232, 232);
+}
+
+.sf:hover {
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(215, 215, 215);
+}
+
+.doraem:hover {
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(215, 215, 215);
+}
+
+.smlbtn:hover {
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(215, 215, 215);
+}
+
+.child_3 {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.vid1 a img {
+    width: 300px;
+    margin-right: 10px;
+}
+.vid2 a img {
+    width: 300px;
+    margin-right: 10px;
+
+}
+.vid3 a img {
+    width: 300px;
+    margin-right: 10px;
+}
+.vid4 a img {
+    width: 300px;
+    margin-right: 10px;
+
+}
+.vid5 a img {
+    width: 300px;
+    margin-right: 10px;
+}
+.vid6 a img {
+    width: 300px;
+    margin-right: 10px;
+}
+.vid7 a img {
+    width: 300px;
+    margin-right: 10px;
+}
+.vid8 a img {
+    width: 300px;
+    margin-right: 10px;
+}
+.vid9 a img {
+    width: 300px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 863px) {
+    .more {display: none;}
+    .create { display: none;
+    }
+    .user {
+        width: 50px;
+        height: 50px;
+        margin-top: 7px; 
+        margin-right: 20px;
+    }
+    .smlbtn {
+        display: block;
+
+    }
+    .sf {
+        display: none;
+    }
+    .doraem {
+        display: block;
+    }
+    .smlbtn {
+        display: none;
+    }
+    .boxsrc {
+        display: none;
+    }
+}
